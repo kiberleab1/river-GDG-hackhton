@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql3000.mochahost.com/lhdcons_lhd?serverTimezone=UTC&verifyServerCertificate=false&useSSL=false&requireSSL=false
+    username: lhdcons_lhd
+    password: 711380Dm
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.spatial.dialect.h2geodb.GeoDBDialect
+   
